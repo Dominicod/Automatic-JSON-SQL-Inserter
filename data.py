@@ -13,7 +13,8 @@ except:
 with open('', 'r') as read_file:
     data = json.load(read_file)
 
-x = data["drinks"]
+# Data value
+x = data['']
 count = 0
 
 # For every item inside of the JSON file, add to db
